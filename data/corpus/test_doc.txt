@@ -1,0 +1,3 @@
+LangGraph is a library for building stateful, multi-actor applications with LLMs.
+It extends the LangChain ecosystem.
+A state graph is the primary way to create cycles and complex flows.

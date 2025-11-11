@@ -1,0 +1,26 @@
+
+# Core
+langchain
+langchain-tavily
+langchain-chroma
+langgraph
+langchain-community
+langchain-core
+langsmith
+langchain-huggingface
+langchain-text-splitters
+# LLMs (local)
+langchain-mistralai
+
+# Vector Store & Embeddings
+chromadb
+sentence-transformers
+
+# Frontend/API
+gradio
+fastapi
+uvicorn
+# Utilities
+python-dotenv
+rich # for pretty printing
+pydantic
