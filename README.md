@@ -1,12 +1,3 @@
-Of course. A great project deserves a great `README.md`.
-
-This file is the front door to your repository. It should be clear, professional, and comprehensive, explaining what the project is, why it's useful, and how to get it running. Based on everything we've built and debugged, here is a complete `README.md` file ready for your project.
-
----
-
-Simply copy the content below and paste it into the `README.md` file at the root of your project directory.
-
-```markdown
 # Research Assistant Bot: Advanced RAG Agent with LangGraph
 
 This repository contains the complete implementation of a sophisticated, multi-LLM Research Assistant Bot. The agent is designed to answer complex questions by intelligently orchestrating local document retrieval, live web searches, and a self-critique loop to ensure high-quality, accurate, and reliable responses.
@@ -51,9 +42,9 @@ The agent operates as a cyclical graph where the state (query, documents, answer
 +-----------+       +------------------------+       +------------+                      |
 | Retrieve  | ----> | Web Search Decision?   | ----> | Web Search |                      |
 | (Local DB)|       +------------------------+       |  (Tavily)  |                      |
-+-----------+                  | (No)                    +------------+                      |
-      |                        |                             |                             |
-      |                        v                             v                             |
++-----------+                  | (No)                    +------------+                  |
+      |                        |                             |                           |
+      |                        v                             v                           |
       |      +-----------------------------------------------------------------------+   |
       |      |                                                                       |   |
       |      v (Yes)                                                                 |   |
