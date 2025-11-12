@@ -172,4 +172,4 @@ The API documentation (Swagger UI) will be available at `http://127.0.0.1:8000/d
 -   [ ] **Implement Reranking:** Improve retrieval accuracy by adding a reranking step after the initial document fetch.
 -   [ ] **Dockerize the Application:** Create `Dockerfile`s for the Gradio and FastAPI apps for easy, reproducible deployment.
 -   [ ] **Enhance Error Handling:** Add specific error-handling nodes in the graph to manage API failures gracefully.
-```
+---
