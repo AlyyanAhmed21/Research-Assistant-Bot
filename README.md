@@ -5,8 +5,6 @@ This repository contains the complete implementation of a sophisticated, multi-L
 The entire workflow is built as a stateful graph using LangGraph, providing robust, observable, and extensible agentic behavior.
 
 
-*(Feel free to replace this with a screenshot of your own running application!)*
-
 ---
 
 ## Core Features
@@ -42,7 +40,7 @@ The agent operates as a cyclical graph where the state (query, documents, answer
 +-----------+       +------------------------+       +------------+                      |
 | Retrieve  | ----> | Web Search Decision?   | ----> | Web Search |                      |
 | (Local DB)|       +------------------------+       |  (Tavily)  |                      |
-+-----------+                  | (No)                    +------------+                  |
++-----------+                  | (No)                +------------+                      |
       |                        |                             |                           |
       |                        v                             v                           |
       |      +-----------------------------------------------------------------------+   |
